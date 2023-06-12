@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\PruebaPracticaDiegoPilataxi.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\PruebaPracticaDiegoPilataxi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\PruebaPracticaDiegoPilataxi.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\PruebaPracticaDiegoPilataxi.AssemblyInfo.cs
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\PruebaPracticaDiegoPilataxi.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\bin\Debug\net6.0\PruebaPracticaDiegoPilataxi.exe
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\bin\Debug\net6.0\PruebaPracticaDiegoPilataxi.deps.json
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\bin\Debug\net6.0\PruebaPracticaDiegoPilataxi.runtimeconfig.json
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\bin\Debug\net6.0\PruebaPracticaDiegoPilataxi.dll
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\bin\Debug\net6.0\PruebaPracticaDiegoPilataxi.pdb
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\PruebaPracticaDiegoPilataxi.dll
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\refint\PruebaPracticaDiegoPilataxi.dll
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\PruebaPracticaDiegoPilataxi.pdb
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\PruebaPracticaDiegoPilataxi.genruntimeconfig.cache
+C:\Users\diego\Desktop\PruebaPracticaDiegoPilataxi\obj\Debug\net6.0\ref\PruebaPracticaDiegoPilataxi.dll

@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\ListaCircularDoble.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\ListaCircularDoble.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\ListaCircularDoble.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\ListaCircularDoble.AssemblyInfo.cs
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\ListaCircularDoble.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\ListaCircularDoble\bin\Debug\net6.0\ListaCircularDoble.exe
+C:\Users\diego\Desktop\ListaCircularDoble\bin\Debug\net6.0\ListaCircularDoble.deps.json
+C:\Users\diego\Desktop\ListaCircularDoble\bin\Debug\net6.0\ListaCircularDoble.runtimeconfig.json
+C:\Users\diego\Desktop\ListaCircularDoble\bin\Debug\net6.0\ListaCircularDoble.dll
+C:\Users\diego\Desktop\ListaCircularDoble\bin\Debug\net6.0\ListaCircularDoble.pdb
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\ListaCircularDoble.dll
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\refint\ListaCircularDoble.dll
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\ListaCircularDoble.pdb
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\ListaCircularDoble.genruntimeconfig.cache
+C:\Users\diego\Desktop\ListaCircularDoble\obj\Debug\net6.0\ref\ListaCircularDoble.dll

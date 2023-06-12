@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\ListasCirculares\bin\Debug\net6.0\ListasCirculares.exe
+C:\Users\diego\Desktop\ListasCirculares\bin\Debug\net6.0\ListasCirculares.deps.json
+C:\Users\diego\Desktop\ListasCirculares\bin\Debug\net6.0\ListasCirculares.runtimeconfig.json
+C:\Users\diego\Desktop\ListasCirculares\bin\Debug\net6.0\ListasCirculares.dll
+C:\Users\diego\Desktop\ListasCirculares\bin\Debug\net6.0\ListasCirculares.pdb
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\ListasCirculares.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\ListasCirculares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\ListasCirculares.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\ListasCirculares.AssemblyInfo.cs
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\ListasCirculares.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\ListasCirculares.dll
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\refint\ListasCirculares.dll
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\ListasCirculares.pdb
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\ListasCirculares.genruntimeconfig.cache
+C:\Users\diego\Desktop\ListasCirculares\obj\Debug\net6.0\ref\ListasCirculares.dll

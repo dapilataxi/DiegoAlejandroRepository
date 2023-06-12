@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\Colas\bin\Debug\net6.0\Colas.exe
+C:\Users\diego\Desktop\Colas\bin\Debug\net6.0\Colas.deps.json
+C:\Users\diego\Desktop\Colas\bin\Debug\net6.0\Colas.runtimeconfig.json
+C:\Users\diego\Desktop\Colas\bin\Debug\net6.0\Colas.dll
+C:\Users\diego\Desktop\Colas\bin\Debug\net6.0\Colas.pdb
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\Colas.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\Colas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\Colas.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\Colas.AssemblyInfo.cs
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\Colas.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\Colas.dll
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\refint\Colas.dll
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\Colas.pdb
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\Colas.genruntimeconfig.cache
+C:\Users\diego\Desktop\Colas\obj\Debug\net6.0\ref\Colas.dll

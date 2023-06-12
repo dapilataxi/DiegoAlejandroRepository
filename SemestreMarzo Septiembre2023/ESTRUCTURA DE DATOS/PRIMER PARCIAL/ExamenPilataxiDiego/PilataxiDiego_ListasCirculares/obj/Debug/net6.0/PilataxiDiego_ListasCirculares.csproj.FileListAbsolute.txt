@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\bin\Debug\net6.0\PilataxiDiego_ListasCirculares.exe
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\bin\Debug\net6.0\PilataxiDiego_ListasCirculares.deps.json
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\bin\Debug\net6.0\PilataxiDiego_ListasCirculares.runtimeconfig.json
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\bin\Debug\net6.0\PilataxiDiego_ListasCirculares.dll
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\bin\Debug\net6.0\PilataxiDiego_ListasCirculares.pdb
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\PilataxiDiego_ListasCirculares.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\PilataxiDiego_ListasCirculares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\PilataxiDiego_ListasCirculares.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\PilataxiDiego_ListasCirculares.AssemblyInfo.cs
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\PilataxiDiego_ListasCirculares.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\PilataxiDiego_ListasCirculares.dll
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\refint\PilataxiDiego_ListasCirculares.dll
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\PilataxiDiego_ListasCirculares.pdb
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\PilataxiDiego_ListasCirculares.genruntimeconfig.cache
+C:\Users\diego\Desktop\PilataxiDiego_ListasCirculares\obj\Debug\net6.0\ref\PilataxiDiego_ListasCirculares.dll

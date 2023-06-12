@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\ListasEjercicios\bin\Debug\net6.0\ListasEjercicios.exe
+C:\Users\diego\Desktop\ListasEjercicios\bin\Debug\net6.0\ListasEjercicios.deps.json
+C:\Users\diego\Desktop\ListasEjercicios\bin\Debug\net6.0\ListasEjercicios.runtimeconfig.json
+C:\Users\diego\Desktop\ListasEjercicios\bin\Debug\net6.0\ListasEjercicios.dll
+C:\Users\diego\Desktop\ListasEjercicios\bin\Debug\net6.0\ListasEjercicios.pdb
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\ListasEjercicios.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\ListasEjercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\ListasEjercicios.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\ListasEjercicios.AssemblyInfo.cs
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\ListasEjercicios.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\ListasEjercicios.dll
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\refint\ListasEjercicios.dll
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\ListasEjercicios.pdb
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\ListasEjercicios.genruntimeconfig.cache
+C:\Users\diego\Desktop\ListasEjercicios\obj\Debug\net6.0\ref\ListasEjercicios.dll

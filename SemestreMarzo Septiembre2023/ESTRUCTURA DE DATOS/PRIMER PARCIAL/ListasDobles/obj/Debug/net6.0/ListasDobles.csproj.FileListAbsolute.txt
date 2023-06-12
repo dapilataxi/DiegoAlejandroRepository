@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\ListasDobles\bin\Debug\net6.0\ListasDobles.exe
+C:\Users\diego\Desktop\ListasDobles\bin\Debug\net6.0\ListasDobles.deps.json
+C:\Users\diego\Desktop\ListasDobles\bin\Debug\net6.0\ListasDobles.runtimeconfig.json
+C:\Users\diego\Desktop\ListasDobles\bin\Debug\net6.0\ListasDobles.dll
+C:\Users\diego\Desktop\ListasDobles\bin\Debug\net6.0\ListasDobles.pdb
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\ListasDobles.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\ListasDobles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\ListasDobles.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\ListasDobles.AssemblyInfo.cs
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\ListasDobles.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\ListasDobles.dll
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\refint\ListasDobles.dll
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\ListasDobles.pdb
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\ListasDobles.genruntimeconfig.cache
+C:\Users\diego\Desktop\ListasDobles\obj\Debug\net6.0\ref\ListasDobles.dll

@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\bin\Debug\net6.0\PilataxiDiego_ListasDobles.exe
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\bin\Debug\net6.0\PilataxiDiego_ListasDobles.deps.json
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\bin\Debug\net6.0\PilataxiDiego_ListasDobles.runtimeconfig.json
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\bin\Debug\net6.0\PilataxiDiego_ListasDobles.dll
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\bin\Debug\net6.0\PilataxiDiego_ListasDobles.pdb
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\PilataxiDiego_ListasDobles.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\PilataxiDiego_ListasDobles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\PilataxiDiego_ListasDobles.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\PilataxiDiego_ListasDobles.AssemblyInfo.cs
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\PilataxiDiego_ListasDobles.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\PilataxiDiego_ListasDobles.dll
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\refint\PilataxiDiego_ListasDobles.dll
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\PilataxiDiego_ListasDobles.pdb
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\PilataxiDiego_ListasDobles.genruntimeconfig.cache
+C:\Users\diego\Desktop\PilataxiDiego_ListasDobles\obj\Debug\net6.0\ref\PilataxiDiego_ListasDobles.dll

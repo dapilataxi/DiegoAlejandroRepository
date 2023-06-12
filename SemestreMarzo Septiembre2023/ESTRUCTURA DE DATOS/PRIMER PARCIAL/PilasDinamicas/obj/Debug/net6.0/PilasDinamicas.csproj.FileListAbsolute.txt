@@ -1,0 +1,15 @@
+C:\Users\diego\Desktop\PilasDinamicas\bin\Debug\net6.0\PilasDinamicas.exe
+C:\Users\diego\Desktop\PilasDinamicas\bin\Debug\net6.0\PilasDinamicas.deps.json
+C:\Users\diego\Desktop\PilasDinamicas\bin\Debug\net6.0\PilasDinamicas.runtimeconfig.json
+C:\Users\diego\Desktop\PilasDinamicas\bin\Debug\net6.0\PilasDinamicas.dll
+C:\Users\diego\Desktop\PilasDinamicas\bin\Debug\net6.0\PilasDinamicas.pdb
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\PilasDinamicas.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\PilasDinamicas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\PilasDinamicas.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\PilasDinamicas.AssemblyInfo.cs
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\PilasDinamicas.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\PilasDinamicas.dll
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\refint\PilasDinamicas.dll
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\PilasDinamicas.pdb
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\PilasDinamicas.genruntimeconfig.cache
+C:\Users\diego\Desktop\PilasDinamicas\obj\Debug\net6.0\ref\PilasDinamicas.dll
