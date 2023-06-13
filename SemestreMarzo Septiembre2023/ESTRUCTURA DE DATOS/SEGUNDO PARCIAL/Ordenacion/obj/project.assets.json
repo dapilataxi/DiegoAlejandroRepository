@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\diego\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\Desktop\\Ordenacion\\Ordenacion.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\DiegoAlejandroRepository\\SemestreMarzo Septiembre2023\\ESTRUCTURA DE DATOS\\SEGUNDO PARCIAL\\Ordenacion\\Ordenacion.csproj",
       "projectName": "Ordenacion",
-      "projectPath": "C:\\Users\\diego\\Desktop\\Ordenacion\\Ordenacion.csproj",
-      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\Desktop\\Ordenacion\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\DiegoAlejandroRepository\\SemestreMarzo Septiembre2023\\ESTRUCTURA DE DATOS\\SEGUNDO PARCIAL\\Ordenacion\\Ordenacion.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\DiegoAlejandroRepository\\SemestreMarzo Septiembre2023\\ESTRUCTURA DE DATOS\\SEGUNDO PARCIAL\\Ordenacion\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

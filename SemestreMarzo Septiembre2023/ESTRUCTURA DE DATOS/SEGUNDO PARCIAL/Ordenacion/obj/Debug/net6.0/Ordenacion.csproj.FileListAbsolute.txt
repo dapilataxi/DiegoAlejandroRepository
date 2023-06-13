@@ -13,3 +13,18 @@ C:\Users\diego\Desktop\Ordenacion\obj\Debug\net6.0\refint\Ordenacion.dll
 C:\Users\diego\Desktop\Ordenacion\obj\Debug\net6.0\Ordenacion.pdb
 C:\Users\diego\Desktop\Ordenacion\obj\Debug\net6.0\Ordenacion.genruntimeconfig.cache
 C:\Users\diego\Desktop\Ordenacion\obj\Debug\net6.0\ref\Ordenacion.dll
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\bin\Debug\net6.0\Ordenacion.exe
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\bin\Debug\net6.0\Ordenacion.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\bin\Debug\net6.0\Ordenacion.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\bin\Debug\net6.0\Ordenacion.dll
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\bin\Debug\net6.0\Ordenacion.pdb
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\Ordenacion.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\Ordenacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\Ordenacion.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\Ordenacion.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\Ordenacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\Ordenacion.dll
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\refint\Ordenacion.dll
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\Ordenacion.pdb
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\Ordenacion.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Ordenacion\obj\Debug\net6.0\ref\Ordenacion.dll

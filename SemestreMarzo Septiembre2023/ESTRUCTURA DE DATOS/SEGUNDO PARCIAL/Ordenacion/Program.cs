@@ -307,7 +307,7 @@
             int n = lista.Length;
             int fin = n - 1;
 
-            MergeSortOrdenar(lista, 0, lista.Length - 1);
+            QuickSort(lista, 0, lista.Length - 1);
             ImprimirLista(lista);
         }
     }
