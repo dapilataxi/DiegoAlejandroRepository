@@ -138,6 +138,154 @@
             return false;
         }
 
+        public void ordenarBurbujaNombre()
+        {
+            Nodo puntero = this;
+            int n = this.ContarElementos();
+            bool intercambio;
+            Pelicula aux;
+            for (int i = 0; i < n - 1; i++)
+            {
+                puntero = this;
+                intercambio = false;
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    if (puntero.contenido.Nombre.CompareTo(puntero.sig.contenido.Nombre) == 1)
+                    {
+                        aux = puntero.contenido;
+                        puntero.contenido = puntero.sig.contenido;
+                        puntero.sig.contenido = aux;
+                        intercambio = true;
+                    }
+                    puntero = puntero.sig;
+                }
+                if (!intercambio)
+                {
+                    break;
+                }
+            }
+        }
+
+        public void ordenarBurbujaAño()
+        {
+            Nodo puntero = this;
+            int n = this.ContarElementos();
+            bool intercambio;
+            Pelicula aux;
+            for (int i = 0; i < n - 1; i++)
+            {
+                puntero = this;
+                intercambio = false;
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    if (puntero.contenido.Año.CompareTo(puntero.sig.contenido.Año) == 1)
+                    {
+                        aux = puntero.contenido;
+                        puntero.contenido = puntero.sig.contenido;
+                        puntero.sig.contenido = aux;
+                        intercambio = true;
+                    }
+                    puntero = puntero.sig;
+                }
+                if (!intercambio)
+                {
+                    break;
+                }
+            }
+        }
+
+        public void shellSortNombre()
+        {
+            Nodo puntero1 = this;
+            Nodo puntero2 = this;
+            Nodo puntero3 = this;
+            int n = this.ContarElementos();
+            int gap = n / 2;
+            while (gap > 0)
+            {
+                puntero1 = this;
+                for (int k = 0; k < gap; k++)
+                {
+                    puntero1 = puntero1.sig;
+                }
+                for (int i = gap; i < n; i++)
+                {
+                    Pelicula temp = puntero1.contenido;
+                    int j = i;
+                    puntero2 = puntero1;
+                    puntero3 = this;
+                    for (int k = 0; k < j - gap; k++)
+                    {
+                        puntero3 = puntero3.sig;
+                    }
+                    while (j >= gap && puntero3.contenido.Nombre.CompareTo(temp.Nombre) == 1)
+                    {
+                        puntero2.contenido = puntero3.contenido;
+                        j -= gap;
+                        puntero2 = this;
+                        for (int k = 0; k < j; k++)
+                        {
+                            puntero2 = puntero2.sig;
+                        }
+                        puntero3 = this;
+                        for (int k = 0; k < j - gap; k++)
+                        {
+                            puntero3 = puntero3.sig;
+                        }
+                    }
+                    puntero2.contenido = temp;
+                    puntero1 = puntero1.sig;
+                }
+                gap /= 2;
+            }
+        }
+
+        public void shellSortAño()
+        {
+            Nodo puntero1 = this;
+            Nodo puntero2 = this;
+            Nodo puntero3 = this;
+            int n = this.ContarElementos();
+            int gap = n / 2;
+            while (gap > 0)
+            {
+                puntero1 = this;
+                for (int k = 0; k < gap; k++)
+                {
+                    puntero1 = puntero1.sig;
+                }
+                for (int i = gap; i < n; i++)
+                {
+                    Pelicula temp = puntero1.contenido;
+                    int j = i;
+                    puntero2 = puntero1;
+                    puntero3 = this;
+                    for (int k = 0; k < j - gap; k++)
+                    {
+                        puntero3 = puntero3.sig;
+                    }
+                    while (j >= gap && puntero3.contenido.Año.CompareTo(temp.Año) == 1)
+                    {
+                        puntero2.contenido = puntero3.contenido;
+                        j -= gap;
+                        puntero2 = this;
+                        for (int k = 0; k < j; k++)
+                        {
+                            puntero2 = puntero2.sig;
+                        }
+                        puntero3 = this;
+                        for (int k = 0; k < j - gap; k++)
+                        {
+                            puntero3 = puntero3.sig;
+                        }
+                    }
+                    puntero2.contenido = temp;
+                    puntero1 = puntero1.sig;
+                }
+                gap /= 2;
+            }
+        }
+
         public void OrdenarPorAño()
         {
             int cantidadElementos = ContarElementos();
@@ -251,16 +399,33 @@
             bool salir = false;
             while (!salir)
             {
-                Console.Clear(); 
-
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write(@" 
+                
+                ░░░░░██╗░░░░█████╗░░░░██████╗░
+                ░░░░░██║░░░██╔══██╗░░░██╔══██╗
+                ░░░░░██║░░░██║░░╚═╝░░░██║░░██║
+                ██╗░░██║░░░██║░░██╗░░░██║░░██║
+                ╚█████╔╝██╗╚█████╔╝██╗██████╔╝
+                ░╚════╝░╚═╝░╚════╝░╚═╝╚═════╝░                      
+                ");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine(@"                                 
+                    █▀▄▀█ █▀█ █░█ █ █▀▀ █▀
+                    █░▀░█ █▄█ ▀▄▀ █ ██▄ ▄█
+                ");
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("\n-- Menú --");
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("1. Ingresar el nombre y el año de la película");
                 Console.WriteLine("2. Mostrar las películas ingresadas por el usuario");
                 Console.WriteLine("3. Eliminar películas");
                 Console.WriteLine("4. Ordenar peliculas");
                 Console.WriteLine("5. Salir");
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Write("Ingrese la opción deseada: ");
-
+                Console.ForegroundColor = ConsoleColor.White;
                 string opcion = Console.ReadLine();
 
                 switch (opcion)
@@ -274,7 +439,7 @@
                         int año;
                         bool esNumero = int.TryParse(añoString, out año);
 
-                        if (esNumero)
+                        if (esNumero && año > 0)
                         {
                             Pelicula pelicula = new Pelicula(nombre, año);
                             lista.InsertarFinal(pelicula);
@@ -313,7 +478,7 @@
                     case "4":
                         Console.Clear();
                         Console.WriteLine("-- Ordenar películas --");
-                        Console.WriteLine("1. Por nombre (Quicksort)");
+                        Console.WriteLine("1. Por nombre");
                         Console.WriteLine("2. Por año");
                         Console.WriteLine("3. Volver al menú principal");
                         Console.Write("Ingrese una opción: ");
@@ -323,13 +488,60 @@
                         {
                             case "1":
                                 Console.Clear();
-                                lista.OrdenarPorNombre();
+                                Console.WriteLine("-- Seleccione el método de ordenación --");
+                                Console.WriteLine("1. Burbuja");
+                                Console.WriteLine("2. Shellsort");
+                                Console.WriteLine("3. Quicksort");
+                                Console.Write("Ingrese una opción: ");
+                                string opcion1 = Console.ReadLine();
+
+                                switch (opcion1)
+                                {
+                                    case "1":
+                                        Console.Clear();
+                                        lista.ordenarBurbujaNombre();
+                                        Console.WriteLine("Las películas han sido ordenadas por nombre con el método Burbuja.");
+                                        break;
+                                    case "2":
+                                        Console.Clear();
+                                        lista.shellSortNombre();
+                                        Console.WriteLine("Las películas han sido ordenadas por nombre con el método Shellsort.");
+                                        break;
+                                    case "3":
+                                        Console.Clear();
+                                        lista.OrdenarPorNombre();
+                                        Console.WriteLine("Las películas han sido ordenadas por nombre con el método Quicksort");
+                                        break;
+                                }
                                 break;
 
                             case "2":
                                 Console.Clear();
-                                lista.OrdenarPorAño();
-                                Console.WriteLine("Las películas han sido ordenadas por año.");
+                                Console.WriteLine("-- Seleccione el método de ordenación --");
+                                Console.WriteLine("1. Burbuja");
+                                Console.WriteLine("2. Shellsort");
+                                Console.WriteLine("3. Quicksort");
+                                Console.Write("Ingrese una opción: ");
+                                string opcion2 = Console.ReadLine();
+
+                                switch (opcion2)
+                                {
+                                    case "1":
+                                        Console.Clear();
+                                        lista.ordenarBurbujaAño();
+                                        Console.WriteLine("Las películas han sido ordenadas por año con el método Burbuja.");
+                                        break;
+                                    case "2":
+                                        Console.Clear();
+                                        lista.shellSortAño();
+                                        Console.WriteLine("Las películas han sido ordenadas por año con el método Shellsort.");
+                                        break;
+                                    case "3":
+                                        Console.Clear();
+                                        lista.OrdenarPorAño();
+                                        Console.WriteLine("Las películas han sido ordenadas por año con el método Quicksort");
+                                        break;
+                                }
                                 break;
 
                             case "3":
@@ -351,6 +563,7 @@
                         Console.WriteLine("Opción inválida. Intente nuevamente.");
                         break;
                 }
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Presione enter para continuar...");
                 Console.ReadLine();
             }

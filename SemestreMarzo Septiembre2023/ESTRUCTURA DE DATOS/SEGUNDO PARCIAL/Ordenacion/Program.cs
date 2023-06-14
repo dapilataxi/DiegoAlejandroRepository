@@ -283,6 +283,98 @@
                 k++;
             }
         }
+
+        static void NaturalMergeSort(int[] arr)
+        {
+            int n = arr.Length;
+            int[] temp = new int[n];
+            int[] indices = new int[n];
+            int[] starts = new int[n];
+            int count = 0;
+
+            int i = 0;
+            while (i < n - 1)
+            {
+                int left = i;
+                int mid = i;
+                int right = i;
+
+                while (mid < n - 1 && arr[mid] <= arr[mid + 1])
+                    mid++;
+
+                if (mid < n - 1)
+                {
+                    right = mid + 1;
+
+                    while (right < n - 1 && arr[right] <= arr[right + 1])
+                        right++;
+
+                    Merge(arr, temp, indices, starts, left, mid, right);
+
+                    i = right + 1;
+                    count++;
+                }
+                else
+                {
+                    temp[i] = arr[i];
+                    indices[i] = count;
+                    starts[count] = i;
+                    i++;
+                }
+            }
+
+            for (i = 0; i < count; i++)
+            {
+                int start = starts[i];
+                int end = (i == count - 1) ? n - 1 : starts[i + 1] - 1;
+                Array.Sort(arr, start, end - start + 1);
+            }
+        }
+
+        static void Merge(int[] arr, int[] temp, int[] indices, int[] starts, int left, int mid, int right)
+        {
+            int i = left;
+            int j = mid + 1;
+            int k = left;
+
+            while (i <= mid && j <= right)
+            {
+                if (arr[i] <= arr[j])
+                {
+                    temp[k] = arr[i];
+                    indices[k] = indices[i];
+                    i++;
+                }
+                else
+                {
+                    temp[k] = arr[j];
+                    indices[k] = indices[j];
+                    j++;
+                }
+                k++;
+            }
+
+            while (i <= mid)
+            {
+                temp[k] = arr[i];
+                indices[k] = indices[i];
+                i++;
+                k++;
+            }
+
+            while (j <= right)
+            {
+                temp[k] = arr[j];
+                indices[k] = indices[j];
+                j++;
+                k++;
+            }
+
+            Array.Copy(temp, left, arr, left, right - left + 1);
+            Array.Copy(indices, left, indices, left, right - left + 1);
+        }
+
+
         static void Main(string[] args)
         {
             int[] lista = { 7, 4, 0, 10, 24, 100, 199, 243, 2901, 2023, 24, 1294, 53};
@@ -303,11 +395,14 @@
             //InsercionOrdenar(lista);
             //ImprimirLista(lista);
 
-            int ini = 0;
-            int n = lista.Length;
-            int fin = n - 1;
+            //int ini = 0;
+            //int n = lista.Length;
+            //int fin = n - 1;
 
-            QuickSort(lista, 0, lista.Length - 1);
+            //QuickSort(lista, 0, lista.Length - 1);
+            //ImprimirLista(lista);
+
+            NaturalMergeSort(lista);
             ImprimirLista(lista);
         }
     }
