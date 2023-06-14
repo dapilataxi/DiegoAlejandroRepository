@@ -84,6 +84,7 @@
 
                 while (puntero != null)
                 {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"| {puntero.contenido.Nombre,-25} | {puntero.contenido.Año,20} |");
                     puntero = puntero.sig;
                 }
@@ -455,12 +456,12 @@
                         Console.Clear();
                         Console.WriteLine("\n-- Películas ingresadas --");
 
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("-------------------------------------------------");
                         Console.WriteLine("|   Nombre de la película   |   Año de la película  |");
                         Console.WriteLine("-------------------------------------------------");
-
                         lista.VerTabla();
-
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("-------------------------------------------------");
                         break;
 
@@ -478,9 +479,11 @@
                     case "4":
                         Console.Clear();
                         Console.WriteLine("-- Ordenar películas --");
+                        Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine("1. Por nombre");
                         Console.WriteLine("2. Por año");
                         Console.WriteLine("3. Volver al menú principal");
+                        Console.ForegroundColor = ConsoleColor.White;
                         Console.Write("Ingrese una opción: ");
                         string opcionOrdenar = Console.ReadLine();
 
@@ -489,9 +492,11 @@
                             case "1":
                                 Console.Clear();
                                 Console.WriteLine("-- Seleccione el método de ordenación --");
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("1. Burbuja");
                                 Console.WriteLine("2. Shellsort");
                                 Console.WriteLine("3. Quicksort");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.Write("Ingrese una opción: ");
                                 string opcion1 = Console.ReadLine();
 
@@ -518,9 +523,11 @@
                             case "2":
                                 Console.Clear();
                                 Console.WriteLine("-- Seleccione el método de ordenación --");
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("1. Burbuja");
                                 Console.WriteLine("2. Shellsort");
                                 Console.WriteLine("3. Quicksort");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.Write("Ingrese una opción: ");
                                 string opcion2 = Console.ReadLine();
 
@@ -563,7 +570,7 @@
                         Console.WriteLine("Opción inválida. Intente nuevamente.");
                         break;
                 }
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("Presione enter para continuar...");
                 Console.ReadLine();
             }
