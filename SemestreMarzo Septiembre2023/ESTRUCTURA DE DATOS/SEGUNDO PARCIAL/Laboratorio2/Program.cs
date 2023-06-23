@@ -348,25 +348,25 @@
             QuickSortN(this, 0, cantidadElementos - 1);
         }
 
-        private void QuickSortN(Nodo inicio, int left, int right)
+        private void QuickSortN(Nodo inicio, int ini, int fin)
         {
-            if (left < right)
+            if (ini < fin)
             {
-                int pivotIndex = UbicarPivote2(inicio, left, right);
-                QuickSortN(inicio, left, pivotIndex - 1);
-                QuickSortN(inicio, pivotIndex + 1, right);
+                int posicionCorrecta = UbicarPivote2(inicio, ini, fin);
+                QuickSortN(inicio, ini, posicionCorrecta - 1);
+                QuickSortN(inicio, posicionCorrecta + 1, fin);
             }
         }
 
         private int UbicarPivote2(Nodo inicio, int ini, int fin)
         {
-            Pelicula pivot = EncontrarPelicula(inicio, fin);
+            Pelicula pivote = EncontrarPelicula(inicio, fin);
             int i = ini - 1;
 
             for (int j = ini; j < fin; j++)
             {
-                Pelicula current =EncontrarPelicula(inicio, j);
-                if (string.Compare(current.Nombre, pivot.Nombre) < 0)
+                Pelicula aux =EncontrarPelicula(inicio, j);
+                if (string.Compare(aux.Nombre, pivote.Nombre) < 0)
                 {
                     i++;
                     Intercambio(EncontrarNodo(inicio, i), EncontrarNodo(inicio, j));
