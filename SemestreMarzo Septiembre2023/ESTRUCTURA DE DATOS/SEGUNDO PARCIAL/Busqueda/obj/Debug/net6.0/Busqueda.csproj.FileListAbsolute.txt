@@ -1,0 +1,30 @@
+C:\Users\diego\Desktop\Busqueda\bin\Debug\net6.0\Busqueda.exe
+C:\Users\diego\Desktop\Busqueda\bin\Debug\net6.0\Busqueda.deps.json
+C:\Users\diego\Desktop\Busqueda\bin\Debug\net6.0\Busqueda.runtimeconfig.json
+C:\Users\diego\Desktop\Busqueda\bin\Debug\net6.0\Busqueda.dll
+C:\Users\diego\Desktop\Busqueda\bin\Debug\net6.0\Busqueda.pdb
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\Busqueda.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\Busqueda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\Busqueda.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\Busqueda.AssemblyInfo.cs
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\Busqueda.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\Busqueda.dll
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\refint\Busqueda.dll
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\Busqueda.pdb
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\Busqueda.genruntimeconfig.cache
+C:\Users\diego\Desktop\Busqueda\obj\Debug\net6.0\ref\Busqueda.dll
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\bin\Debug\net6.0\Busqueda.exe
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\bin\Debug\net6.0\Busqueda.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\bin\Debug\net6.0\Busqueda.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\bin\Debug\net6.0\Busqueda.dll
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\bin\Debug\net6.0\Busqueda.pdb
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\Busqueda.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\Busqueda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\Busqueda.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\Busqueda.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\Busqueda.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\Busqueda.dll
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\refint\Busqueda.dll
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\Busqueda.pdb
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\Busqueda.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Escritorio\DiegoAlejandroRepository\SemestreMarzo Septiembre2023\ESTRUCTURA DE DATOS\SEGUNDO PARCIAL\Busqueda\obj\Debug\net6.0\ref\Busqueda.dll

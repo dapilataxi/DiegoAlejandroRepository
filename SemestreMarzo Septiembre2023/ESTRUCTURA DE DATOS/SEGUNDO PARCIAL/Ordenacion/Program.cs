@@ -402,8 +402,8 @@
             //QuickSort(lista, 0, lista.Length - 1);
             //ImprimirLista(lista);
 
-            NaturalMergeSort(lista);
-            ImprimirLista(lista);
+            //NaturalMergeSort(lista);
+            //ImprimirLista(lista);
         }
     }
 }

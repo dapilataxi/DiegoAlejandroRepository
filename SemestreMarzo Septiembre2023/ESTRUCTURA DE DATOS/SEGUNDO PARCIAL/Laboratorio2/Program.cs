@@ -57,25 +57,6 @@
             return contador;
         }
 
-        public void Ver()
-        {
-            if (!Vacio())
-            {
-                Nodo puntero = this;
-                Console.WriteLine("\nLos elementos de la lista son los siguientes: ");
-
-                while (puntero != null)
-                {
-                    Console.WriteLine("Nombre: " + puntero.contenido.Nombre + ", Año: " + puntero.contenido.Año);
-                    puntero = puntero.sig;
-                }
-            }
-            else
-            {
-                Console.WriteLine("La lista está vacía");
-            }
-        }
-
         public void VerTabla()
         {
             if (!Vacio())
@@ -84,6 +65,7 @@
 
                 while (puntero != null)
                 {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"| {puntero.contenido.Nombre,-25} | {puntero.contenido.Año,20} |");
                     puntero = puntero.sig;
                 }
@@ -376,6 +358,27 @@
             Intercambio(EncontrarNodo(inicio, i + 1), EncontrarNodo(inicio, fin));
             return i + 1;
         }
+
+        public int encontrarNombre(string buscado)
+        {
+            int retorno = -1;
+            int contador = 0;
+            Nodo puntero = this;
+            while (puntero.sig != null)
+            {
+                if (puntero.contenido.Nombre == buscado)
+                {
+                    retorno = contador;
+                }
+                puntero = puntero.sig;
+                contador++;
+            }
+            if (puntero.contenido.Nombre == buscado)
+            {
+                retorno = contador;
+            }
+            return retorno;
+        }
     }
     public class Pelicula
     {
@@ -391,6 +394,75 @@
 
     class Program
     {
+        static int BusquedaBinariaPorNombre(Nodo inicio, string nombre)
+        {
+            int bajo = 0;
+            int alto = inicio.ContarElementos() - 1;
+            int posicion = -1;
+
+            while (bajo <= alto)
+            {
+                int medio = (bajo + alto) / 2;
+                Pelicula pelicula = EncontrarPeliculaPorIndice(inicio, medio);
+
+                int comparacion = string.Compare(pelicula.Nombre, nombre);
+
+                if (comparacion == 0)
+                {
+                    posicion = medio;
+                    break;
+                }
+                else if (comparacion < 0)
+                {
+                    bajo = medio + 1;
+                }
+                else
+                {
+                    alto = medio - 1;
+                }
+            }
+
+            return posicion;
+        }
+
+        static int BusquedaBinariaPorAño(Nodo inicio, int año)
+        {
+            int bajo = 0;
+            int alto = inicio.ContarElementos() - 1;
+            int posicion = -1;
+
+            while (bajo <= alto)
+            {
+                int medio = (bajo + alto) / 2;
+                Pelicula pelicula = EncontrarPeliculaPorIndice(inicio, medio);
+
+                if (pelicula.Año == año)
+                {
+                    posicion = medio;
+                    break;
+                }
+                else if (pelicula.Año < año)
+                {
+                    bajo = medio + 1;
+                }
+                else
+                {
+                    alto = medio - 1;
+                }
+            }
+
+            return posicion;
+        }
+
+        static Pelicula EncontrarPeliculaPorIndice(Nodo inicio, int indice)
+        {
+            Nodo puntero = inicio;
+            for (int i = 0; i < indice; i++)
+            {
+                puntero = puntero.sig;
+            }
+            return puntero.contenido;
+        }
         static void Main(string[] args)
         {
             Nodo lista = new Nodo();
@@ -422,7 +494,8 @@
                 Console.WriteLine("2. Mostrar las películas ingresadas por el usuario");
                 Console.WriteLine("3. Eliminar películas");
                 Console.WriteLine("4. Ordenar peliculas");
-                Console.WriteLine("5. Salir");
+                Console.WriteLine("5. Buscar Pelicula");
+                Console.WriteLine("6. Salir");
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Write("Ingrese la opción deseada: ");
                 Console.ForegroundColor = ConsoleColor.White;
@@ -455,12 +528,12 @@
                         Console.Clear();
                         Console.WriteLine("\n-- Películas ingresadas --");
 
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("-------------------------------------------------");
                         Console.WriteLine("|   Nombre de la película   |   Año de la película  |");
                         Console.WriteLine("-------------------------------------------------");
-
                         lista.VerTabla();
-
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("-------------------------------------------------");
                         break;
 
@@ -478,9 +551,11 @@
                     case "4":
                         Console.Clear();
                         Console.WriteLine("-- Ordenar películas --");
+                        Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine("1. Por nombre");
                         Console.WriteLine("2. Por año");
                         Console.WriteLine("3. Volver al menú principal");
+                        Console.ForegroundColor = ConsoleColor.White;
                         Console.Write("Ingrese una opción: ");
                         string opcionOrdenar = Console.ReadLine();
 
@@ -489,9 +564,11 @@
                             case "1":
                                 Console.Clear();
                                 Console.WriteLine("-- Seleccione el método de ordenación --");
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("1. Burbuja");
                                 Console.WriteLine("2. Shellsort");
                                 Console.WriteLine("3. Quicksort");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.Write("Ingrese una opción: ");
                                 string opcion1 = Console.ReadLine();
 
@@ -518,9 +595,11 @@
                             case "2":
                                 Console.Clear();
                                 Console.WriteLine("-- Seleccione el método de ordenación --");
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("1. Burbuja");
                                 Console.WriteLine("2. Shellsort");
                                 Console.WriteLine("3. Quicksort");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.Write("Ingrese una opción: ");
                                 string opcion2 = Console.ReadLine();
 
@@ -556,6 +635,63 @@
                         break;
 
                     case "5":
+                        Console.Clear();
+                        Console.WriteLine("-- Buscar Películas --");
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine("1. Secuencial");
+                        Console.WriteLine("2. Binaria");
+                        Console.WriteLine("3. Volver al menú principal");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write("Ingrese una opción: ");
+                        string opcionBuscar = Console.ReadLine();
+
+                        switch (opcionBuscar)
+                        {
+                            case "1":
+                                Console.Clear();
+                                Console.Write("Ingrese el nombre de la Película: ");
+                                string nombre1 = Console.ReadLine();
+
+                                int posicion = lista.encontrarNombre(nombre1);
+
+                                if (posicion != -1)
+                                {
+                                    Console.WriteLine("La película {0} se encuentra en la posición {1} de la lista.", nombre1, posicion);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("La película {0} no se encuentra en la lista.", nombre1);
+                                }
+                                break;
+
+                            case "2":
+                                Console.Clear();
+                                Console.Write("Ingrese el nombre de la película:");
+                                string nombre2 = Console.ReadLine();
+
+                                int posicionNombre = BusquedaBinariaPorNombre(lista, nombre2);
+
+                                if (posicionNombre != -1)
+                                {
+                                    Console.WriteLine("La película {0} se encuentra en la posición {1} de la lista.", nombre2, posicionNombre);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("La película {0} no se encuentra en la lista.", nombre2);
+                                }
+                                break;
+
+                            case "3":
+                                volverMenuPrincipal = true;
+                                break;
+
+                            default:
+                                Console.WriteLine("Opción inválida. Intente nuevamente.");
+                                break;
+                        }
+                        break;
+
+                    case "6":
                         salir = true;
                         break;
 
@@ -563,7 +699,7 @@
                         Console.WriteLine("Opción inválida. Intente nuevamente.");
                         break;
                 }
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("Presione enter para continuar...");
                 Console.ReadLine();
             }
